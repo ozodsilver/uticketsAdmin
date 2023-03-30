@@ -29,7 +29,7 @@
           data-mdb-ripple-color="primary"
         >
           <div class="card-body">
-            <h5 class="card-title text-dark">sector {{ sector.sector }}</h5>
+            <h5 class="card-title text-dark">sector {{ sector.sector+1 }}</h5>
             <p class="text-dark">Current price:{{ sector.ticketPrice }} sum</p>
 
             <router-link
