@@ -9,12 +9,12 @@
       
      <div class="d-flex align-items-end gap-4">
       <n-button :loading="loading" type="success" class="w-25 mt-4" @click="updateMoney" >
-        изменять
+        Изменить
       </n-button>
 
      <div v-if="success">
       <i class="fas fa-circle-check fa-2x text-success"></i>
-      измененный
+      Success
      </div>
      </div>
     </div>

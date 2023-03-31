@@ -25,7 +25,7 @@
           {{ info.description }}
         </p>
         <p class="card-text">
-         <router-link class="btn btn-primary" :to="{name:'insideMoney', params:{id:info.id}}">изменять</router-link>
+         <router-link class="btn btn-primary" :to="{name:'insideMoney', params:{id:info.id}}">Изменить</router-link>
         </p>
       </div>
     </div>

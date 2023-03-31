@@ -7,7 +7,7 @@
       >
         <h3 class="text-white p-3 m-4 text-center">Utickets админ</h3>
         <router-link to="/addGame" class="text-white d-block w-75 m-auto mt-5"
-          >добавить  игру <i class="fas fa-plus"></i
+          >добавить  match <i class="fas fa-plus"></i
         ></router-link>
         <router-link
           to="/updateMoney"

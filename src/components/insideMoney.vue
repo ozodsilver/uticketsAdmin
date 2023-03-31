@@ -15,7 +15,7 @@
         placeholder="update"
         v-model="update"
       />
-      <button class="btn btn-success" @click="updateAll">update</button>
+      <button class="btn btn-success" @click="updateAll">Изменить</button>
     </h2>
 
     <div class="d-flex justify-content-center" v-if="loading">
@@ -29,8 +29,8 @@
           data-mdb-ripple-color="primary"
         >
           <div class="card-body">
-            <h5 class="card-title text-dark">sector {{ sector.sector+1 }}</h5>
-            <p class="text-dark">Current price:{{ sector.ticketPrice }} sum</p>
+            <h5 class="card-title text-dark">сектор {{ sector.sector+1 }}</h5>
+            <p class="text-dark">Текущая цена:{{ sector.ticketPrice }} сум </p>
 
             <router-link
               :to="{
@@ -39,7 +39,7 @@
               }"
               type="button"
               class="btn btn-dark opacity-75"
-              >Изменять</router-link
+              >Изменить</router-link
             >
           </div>
         </div>

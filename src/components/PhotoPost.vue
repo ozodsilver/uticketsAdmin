@@ -2,7 +2,7 @@
   <hr>
   <div class="container">
     <div class="row">
-      <h2 class="my-4 text-success">Post photo for Carousel</h2>
+      <h2 class="my-4 text-success">Поместите изображение для карусели</h2>
       <div class="col-12">
         <form>
           <input type="file" class="form-control" id="img" ref="file" />
@@ -16,7 +16,7 @@
         </form>
 
         <button class="btn btn-primary mt-4" @click="handleFileUpload">
-          Post Photo
+          опубликовать фото
         </button>
       </div>
     </div>
@@ -25,7 +25,7 @@
   </div>
 <hr>
 <div class="container-fluid my-5">
-<h2 class="text-danger">Delete Photo</h2>
+<h2 class="text-danger">удалить фотографии</h2>
 
 <div class="row">
 <div class="col-12">
