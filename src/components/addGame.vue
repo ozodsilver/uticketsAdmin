@@ -99,7 +99,7 @@ const postInfo = () => {
     StartsAt: new Date(time.value).toJSON(),
     File: file.value.files[0],
   };
-  console.log(file.value.files[0]);
+  // console.log(file.value.files[0]);
 
   if (name.value !== "" && description.value !== "" && time.value !== "") {
     axios
@@ -111,9 +111,9 @@ const postInfo = () => {
       })
       .then((res) => {
        
-        console.log(res);
+        // console.log(res);
         if (res.status == 200) {
-          console.log("200");
+          // console.log("200");
           showModalRef.value = true
       timeoutRef.value = 3000
   loading.value = false;

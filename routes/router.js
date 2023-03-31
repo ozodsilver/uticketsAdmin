@@ -6,6 +6,7 @@ import updateMoney from "../src/components/updateMoney.vue";
 import InsideMoney from "../src/components/insideMoney.vue";
 import InsideMoneyUpdate from "../src/components/insideMoneyUpdate.vue";
 import PhotoPost from "../src/components/PhotoPost.vue";
+
 let routes = [
   {
     path: "/",
@@ -55,5 +56,6 @@ const router = createRouter({
   routes,
   history: createWebHashHistory(),
 });
+
 
 export default router;
