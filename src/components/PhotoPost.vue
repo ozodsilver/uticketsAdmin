@@ -2,7 +2,7 @@
   <hr>
   <div class="container">
     <div class="row">
-      <h2 class="my-4 text-success">Поместите изображение для карусели</h2>
+      <h2 class="my-4 text-success">Поместите изображение для carousel</h2>
       <div class="col-12">
         <form>
           <input type="file" class="form-control" id="img" ref="file" />

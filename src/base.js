@@ -1,3 +1,3 @@
-const base = 'https://test.utickets.uz/';
+const base = 'https://bk.utickets.uz/api/';
 
 export default  base;
